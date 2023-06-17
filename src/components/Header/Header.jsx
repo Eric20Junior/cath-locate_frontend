@@ -9,7 +9,7 @@ export const Header = () => {
   
   return (
     <>
-      <div className='xs:flex xs:justify-between xs:shadow xs:w-full xs:h-13 xs:pl-[50px] xs:pr-[10px] lg:px-[50px] mb-6 font-[sora]'>
+      <div className='xs:flex xs:justify-between xs:shadow xs:w-full xs:h-13 xs:pl-[50px] xs:pr-[30px] lg:px-[50px] font-[sora]'>
         <Link to='/'>
           <img src={logo} alt='logo' className='h-[60px]' />
         </Link>
