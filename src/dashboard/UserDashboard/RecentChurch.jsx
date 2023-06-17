@@ -36,7 +36,7 @@ export const RecentChurch = () => {
       <Link to={'/dashboard/churches'} className='xs:text-sky-700 xs:border xs:border-[#048950] xs:text-center xs:py-1 xs:w-20 xs:rounded-md xs:text-xs'>View All</Link>
       </div>
 
-      {/* <div className='xs:mt-3 xs:w-full sm:w-full sx:w-full sg:w-full  md:w-full  lg:w-full xs:overflow-x-scroll'>
+      <div className='xs:mt-3 xs:w-full sm:w-full sx:w-full sg:w-full  md:w-full  lg:w-full xs:overflow-x-scroll'>
           <table class=" table-auto xs:w-[800px] lg:w-full border-collapse">
                 <thead>
                   <tr className='xs:text-left'>
@@ -65,7 +65,7 @@ export const RecentChurch = () => {
                 </tbody>
         </table>
 
-      </div> */}
+      </div>
       </div>
   )
 }

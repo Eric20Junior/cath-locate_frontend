@@ -36,7 +36,7 @@ export const Churches = () => {
       <strong>Recent Churches</strong>
       </div>
 
-      {/* <div className='xs:mt-3 xs:w-full sm:w-full sx:w-full sg:w-full  md:w-full  lg:w-full xs:overflow-x-scroll'>
+      <div className='xs:mt-3 xs:w-full sm:w-full sx:w-full sg:w-full  md:w-full  lg:w-full xs:overflow-x-scroll'>
           <table class=" table-auto xs:w-[800px] lg:w-full border-collapse">
                 <thead>
                   <tr className='xs:text-left'>
@@ -65,7 +65,7 @@ export const Churches = () => {
                 </tbody>
         </table>
 
-      </div> */}
+      </div>
       </div>
     </div>
   )

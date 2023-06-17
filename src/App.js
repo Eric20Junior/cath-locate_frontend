@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import { AuthProvider } from './context/AuthContext'
 import PrivateRoute from './utilis/PrivateRoute'
 
-import { Header } from './components'
 import { AdminDashboard, Layout, AdminLogin, Faq, CreateFaq, UpdateFaq } from './dashboard'
 import { UserDashboard, UserLayout } from "./dashboard";
 import { Homepage, CreateProfile, UpdateProfile, DeletePage, DetailPage, Login, Register, Churches, FAQ } from './pages';
